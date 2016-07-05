@@ -5,6 +5,7 @@
  * original menu color #2C3E50
  * original background green #18BC9C
  * yellow used #FFFC01
+ * orange used #FC7F10
  */
 body {
   font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -34,7 +35,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #FFFC01;
+  color: #FC7F10;
   outline: none;
 }
 h1,
@@ -70,16 +71,16 @@ hr.star-light-about:after  {
 }
 hr.star-light,
 hr.star-light-about {
-  border-color: #FFFC01;
+  border-color: white;
 }
 hr.star-light:after {
   background-color: #2A85D2;
-  color: #fffC01;
+  color: #FC7F10;
 }
 
 hr.star-light-about:after  {
   background-color: #91B7B0;
-  color: #fffC01;
+  color: #FC7F10;
 }
 
 hr.star-primary {
@@ -157,7 +158,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #FFFC01;
+  color: #FC7F10;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -166,7 +167,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: #22222E;
-  background: #FFFC01;
+  background: #FC7F10;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
