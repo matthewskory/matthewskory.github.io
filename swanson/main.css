@@ -1,0 +1,11 @@
+#picture{
+	height: 400px;
+	width: 600px;
+	border: solid;
+}
+
+body {
+
+	font-size: 20px;
+	font-family: 'Coming Soon', cursive;
+}
