@@ -1,15 +1,3 @@
-// API is not secured and will not work on github pages. 
-//$(document).ready(function(){
-// 	$("#getquote").click(function(){
-// 		$.ajax({
-// 		  type: 'GET',
-// 		  url: 'https://ron-swanson-quotes.herokuapp.com/v2/quotes',
-// 		  success: function(data) {
-// 		    $("#quotes").text(data[0]); 
-// 		  }
-// 		});
-// 	});
-// });
 var quotes = [
     "Clear alcohols are for rich women on diets.",
     "Crying: acceptable at funerals and the Grand Canyon.",
@@ -71,16 +59,3 @@ var quotes = [
     "What the f*ck is a German muffin?!?",
     "I wanna punch you in the face so bad right now."
 ];
-
-
-
-$(document).ready(function(){
-	$("#getquote").click(function(){
-		var randomNum = Math.floor(Math.random() *72);
-		$("#quotes").text(quotes[randomNum]);
-		console.log(randomNum);
-	});
-});
-
-
-
