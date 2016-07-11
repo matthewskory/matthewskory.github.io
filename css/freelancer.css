@@ -17,6 +17,7 @@ body {
   font-size: 180px;
   text-align: center;
   color: white;
+  font-weight: 400;
 }
 .small-logo{
   font-family: 'Reenie Beanie', cursive;
@@ -27,6 +28,13 @@ body {
 p {
   font-size: 20px;
 }
+
+li{
+  font-size: :20px;
+}
+li.small{
+  font-size: 16px;
+}
 p.small {
   font-size: 16px;
 }
@@ -35,7 +43,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #FC7F10;
+  color: Tomato;
   outline: none;
 }
 h1,
@@ -75,12 +83,12 @@ hr.star-light-about {
 }
 hr.star-light:after {
   background-color: #2A85D2;
-  color: #FC7F10;
+  color: Tomato;
 }
 
 hr.star-light-about:after  {
   background-color: #91B7B0;
-  color: #FC7F10;
+  color: Tomato;
 }
 
 hr.star-primary {
@@ -102,7 +110,7 @@ header {
   
 }
 header .container {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 header img {
@@ -113,7 +121,7 @@ header .intro-text .name {
   display: block;
   font-family: "Raleway", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2em;
 }
 header .intro-text .skills {
@@ -126,7 +134,7 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 4.0em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
@@ -158,7 +166,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #FC7F10;
+  color: tomato;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -167,13 +175,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: #22222E;
-  background: #FC7F10;
+  background: tomato;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: #22222E;
-  background: #FFFC01;
+  background: tomato;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -183,9 +191,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #FFFC01;
+  background-color: tomato;
   color: #22222E;
-  border-color: #FFFC01;
+  border-color: tomato;
 }
 @media (min-width: 768px) {
   .navbar-custom {
