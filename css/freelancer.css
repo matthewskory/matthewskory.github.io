@@ -349,8 +349,8 @@ footer .footer-below {
   background-color: #22222E;
 }
 .btn-outline {
-  color: white;
-  font-size: 20px;
+  color: #22222e;
+  font-size: 30px;
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
@@ -360,14 +360,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #2A85D2;
+  color: tomato;
   background: white;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
   background-color: #22222e;
-  border-color: #22222e;
+  border-color: tomato;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -375,7 +375,7 @@ footer .footer-below {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
+  color: #2222e;
   background-color: #1a242f;
   border-color: #161f29;
 }
